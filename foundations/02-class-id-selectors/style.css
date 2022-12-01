@@ -1,0 +1,16 @@
+p {
+    background-color: rgb(239, 6, 127);
+    font:Verdana, DejaVu Sans, sans-serif;
+}
+#num2 {
+    color:blue;
+    font-size: 36px;
+}
+.cool {
+    font-size: 24px;
+}
+#num4 {
+    background-color: rgb(6, 239, 47);
+    font-size: 24px;
+    font-weight: 700;
+}
