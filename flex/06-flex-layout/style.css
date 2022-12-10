@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+ margin-top: 150px;
 }
 
 button {
@@ -16,6 +17,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -24,4 +26,39 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+.header {
+  display:flex;
+  justify-content: space-between;
+}
+.left-links{
+  display: flex;
+  gap: 8px;
+}
+.right-links{
+  display:flex;
+  gap: 8px;
+  margin-right: 25px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 150px;
 }
